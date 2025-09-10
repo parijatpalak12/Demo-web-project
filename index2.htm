@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a BTech 2nd-year student passionate about coding, problem-solving, and learning new technologies. I’m interested in Java, C++, and Data Structures & Algorithms.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C++ (DSA)</li>
+      <li>Java (beginner)</li>
+      <li>Problem Solving</li>
+      <li>Web Development (HTML, CSS basics)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Disease detection</h3>
+        <p>A Java program that prints matrix elements in spiral order.</p>
+      </div>
+      <div class="card">
+        <h3>Xray machine</h3>
+        <p>Implemented quick sort algorithm to sort numbers efficiently.</p>
+      </div>
+      <div class="card">
+        <h3>Weather forcasting</h3>
+        <p>Problem-solving program to decide if Chef should buy a coupon.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourname@gmail.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="#">github.com/yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio | Made with ❤</p>
+  </footer>
+</body>
+</html>
